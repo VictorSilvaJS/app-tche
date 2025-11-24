@@ -1,0 +1,29 @@
+[project]
+name = "tche-backend"
+version = "0.1.0"
+description = "Backend FastAPI do aplicativo Tchê Fertilidade do Solo"
+requires-python = ">=3.11"
+authors = [ { name = "Equipe Tche", email = "dev@tche.local" } ]
+
+readme = "README.md"
+
+dependencies = [
+	"fastapi>=0.110.0",
+	"uvicorn>=0.30.0",
+	"sqlalchemy>=2.0.29",
+	"psycopg2-binary>=2.9.9",
+	"python-dotenv>=1.0.1",
+	"passlib[bcrypt]>=1.7.4",
+	"python-jose[cryptography]>=3.3.0",
+	"geoalchemy2>=0.14.4",
+	"shapely>=2.0.4",
+	"pydantic>=2.8.0",
+	"pydantic-settings>=2.3.0",
+]
+
+[tool.uvicorn]
+factory = true
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

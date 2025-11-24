@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+*.pytest_cache/
+*.pyc
+
+# Pyproject / build
+build/
+dist/
+.mypy_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# Expo/React Native
+android/
+ios/
+.expo/
+
+# dotenv
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
