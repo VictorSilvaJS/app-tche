@@ -4,6 +4,8 @@ import DashboardScreen from '../../screens/DashboardScreen';
 import PropertiesScreen from '../../screens/PropertiesScreen';
 import SamplePointsScreen from '../../screens/SamplePointsScreen';
 import FieldsScreen from '../../screens/FieldsScreen';
+import MapScreen from '../../screens/MapScreen';
+import AnalysesScreen from '../../screens/AnalysesScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -14,6 +16,8 @@ export default function MainTabs() {
       <Tab.Screen name="Properties" component={PropertiesScreen} />
       <Tab.Screen name="Samples" component={SamplePointsScreen} />
       <Tab.Screen name="Fields" component={FieldsScreen} />
+      <Tab.Screen name="Map" component={MapScreen} />
+      <Tab.Screen name="Analyses" component={AnalysesScreen} />
     </Tab.Navigator>
   );
 }

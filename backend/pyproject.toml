@@ -14,11 +14,13 @@ dependencies = [
 	"psycopg2-binary>=2.9.9",
 	"python-dotenv>=1.0.1",
 	"passlib[bcrypt]>=1.7.4",
+	"bcrypt==3.2.0",  # fix: evita bug de compatibilidade com passlib (remove AttributeError __about__)
 	"python-jose[cryptography]>=3.3.0",
 	"geoalchemy2>=0.14.4",
 	"shapely>=2.0.4",
 	"pydantic>=2.8.0",
 	"pydantic-settings>=2.3.0",
+	"alembic = \"^1.13.1\"",
 ]
 
 [tool.uvicorn]
