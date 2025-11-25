@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, FlatList, TextInput, Button } from 'react-native';
 import { api } from '../api/client';
+import { colors } from '../theme/colors';
 
 interface Property {
   id: string;
@@ -48,7 +49,7 @@ export default function PropertiesScreen() {
       {error && <Text style={styles.error}>{error}</Text>}
       <View style={styles.row}>
         <TextInput placeholder="Nome" value={name} onChangeText={setName} style={styles.input} />
-        <Button title="Adicionar" onPress={createProperty} />
+        <Button title="Adicionar" onPress={createProperty} color={colors.primary} />
       </View>
       {loading ? <Text>Carregando...</Text> : (
         <FlatList
@@ -65,11 +66,11 @@ export default function PropertiesScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16 },
-  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 12 },
-  error: { color: 'red', marginBottom: 12 },
+  container: { flex: 1, padding: 16, backgroundColor: colors.background },
+  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 12, color: colors.text },
+  error: { color: colors.danger, marginBottom: 12 },
   row: { flexDirection: 'row', alignItems: 'center', marginBottom: 12, gap: 8 },
-  input: { flex: 1, borderWidth: 1, borderColor: '#ccc', borderRadius: 6, padding: 8 },
-  item: { padding: 12, borderBottomWidth: 1, borderColor: '#eee' },
-  itemText: { fontSize: 16 }
+  input: { flex: 1, borderWidth: 1, borderColor: colors.muted, borderRadius: 6, padding: 8 },
+  item: { padding: 12, borderBottomWidth: 1, borderColor: colors.muted },
+  itemText: { fontSize: 16, color: colors.text }
 });

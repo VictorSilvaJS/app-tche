@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TextInput, Button, FlatList } from 'react-native';
 import { api } from '../api/client';
+import { colors } from '../theme/colors';
 
 interface Analysis {
   id: string;
@@ -62,7 +63,7 @@ export default function AnalysesScreen() {
       <TextInput placeholder="pH H2O" value={ph} onChangeText={setPh} style={styles.input} keyboardType="numeric" />
       <TextInput placeholder="P mg/dm³" value={p} onChangeText={setP} style={styles.input} keyboardType="numeric" />
       <TextInput placeholder="K cmol/dm³" value={k} onChangeText={setK} style={styles.input} keyboardType="numeric" />
-      <Button title="Criar Análise" onPress={create} />
+      <Button title="Criar Análise" onPress={create} color={colors.primary} />
       <View style={{ height: 16 }} />
       {loading ? <Text>Carregando...</Text> : (
         <FlatList
@@ -85,12 +86,12 @@ export default function AnalysesScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16 },
-  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 12 },
-  error: { color: 'red', marginBottom: 12 },
-  input: { borderWidth: 1, borderColor: '#ccc', borderRadius: 6, padding: 8, marginBottom: 8 },
-  item: { padding: 12, borderBottomWidth: 1, borderColor: '#eee' },
-  itemTitle: { fontWeight: 'bold' },
-  itemMeta: { fontSize: 12, color: '#555' },
-  itemRec: { fontSize: 12, color: '#15616d', marginTop: 4 }
+  container: { flex: 1, padding: 16, backgroundColor: colors.background },
+  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 12, color: colors.text },
+  error: { color: colors.danger, marginBottom: 12 },
+  input: { borderWidth: 1, borderColor: colors.muted, borderRadius: 6, padding: 8, marginBottom: 8 },
+  item: { padding: 12, borderBottomWidth: 1, borderColor: colors.muted },
+  itemTitle: { fontWeight: 'bold', color: colors.text },
+  itemMeta: { fontSize: 12, color: colors.muted },
+  itemRec: { fontSize: 12, color: colors.primary, marginTop: 4 }
 });

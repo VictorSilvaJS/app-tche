@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TextInput, Button, FlatList } from 'react-native';
 import { api } from '../api/client';
+import { colors } from '../theme/colors';
 
 interface Field {
   id: string;
@@ -45,7 +46,7 @@ export default function FieldsScreen() {
       <TextInput placeholder="property_id" value={propertyId} onChangeText={setPropertyId} style={styles.input} />
       <TextInput placeholder="Nome" value={name} onChangeText={setName} style={styles.input} />
       <TextInput placeholder="Polygon WKT (opcional)" value={polygon} onChangeText={setPolygon} style={styles.input} />
-      <Button title="Adicionar" onPress={createField} />
+      <Button title="Adicionar" onPress={createField} color={colors.primary} />
       <View style={{ height: 16 }} />
       {loading ? <Text>Carregando...</Text> : (
         <FlatList
@@ -65,11 +66,11 @@ export default function FieldsScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16 },
-  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 12 },
-  error: { color: 'red', marginBottom: 12 },
-  input: { borderWidth: 1, borderColor: '#ccc', borderRadius: 6, padding: 8, marginBottom: 8 },
-  item: { padding: 12, borderBottomWidth: 1, borderColor: '#eee' },
-  itemTitle: { fontWeight: 'bold' },
-  itemMeta: { fontSize: 12, color: '#555' }
+  container: { flex: 1, padding: 16, backgroundColor: colors.background },
+  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 12, color: colors.text },
+  error: { color: colors.danger, marginBottom: 12 },
+  input: { borderWidth: 1, borderColor: colors.muted, borderRadius: 6, padding: 8, marginBottom: 8 },
+  item: { padding: 12, borderBottomWidth: 1, borderColor: colors.muted },
+  itemTitle: { fontWeight: 'bold', color: colors.text },
+  itemMeta: { fontSize: 12, color: colors.muted }
 });

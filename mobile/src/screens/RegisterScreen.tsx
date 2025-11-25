@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 import { useAuth } from '../storage/authContext';
 import { api } from '../api/client';
+import { colors } from '../theme/colors';
 
 export default function RegisterScreen({ navigation }: any) {
   const { login } = useAuth();
@@ -27,16 +28,16 @@ export default function RegisterScreen({ navigation }: any) {
       <TextInput placeholder="Nome" style={styles.input} value={name} onChangeText={setName} />
       <TextInput placeholder="Email" style={styles.input} autoCapitalize="none" value={email} onChangeText={setEmail} />
       <TextInput placeholder="Senha" style={styles.input} secureTextEntry value={password} onChangeText={setPassword} />
-      <Button title="Registrar" onPress={handleRegister} />
+      <Button title="Registrar" onPress={handleRegister} color={colors.primary} />
       <View style={{ height: 12 }} />
-      <Button title="Voltar" onPress={() => navigation.goBack()} />
+      <Button title="Voltar" onPress={() => navigation.goBack()} color={colors.muted} />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', padding: 24 },
-  title: { fontSize: 24, fontWeight: 'bold', marginBottom: 24, textAlign: 'center' },
-  input: { borderWidth: 1, borderColor: '#ccc', borderRadius: 6, padding: 12, marginBottom: 12 },
-  error: { color: 'red', marginBottom: 12 }
+  container: { flex: 1, justifyContent: 'center', padding: 24, backgroundColor: colors.background },
+  title: { fontSize: 24, fontWeight: 'bold', marginBottom: 24, textAlign: 'center', color: colors.primary },
+  input: { borderWidth: 1, borderColor: colors.muted, borderRadius: 6, padding: 12, marginBottom: 12 },
+  error: { color: colors.danger, marginBottom: 12 }
 });

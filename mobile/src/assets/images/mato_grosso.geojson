@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Mato Grosso" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-60.0, -17.0],
+            [-60.0, -10.0],
+            [-54.0, -10.0],
+            [-54.0, -17.0],
+            [-60.0, -17.0]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+(Transcrito por TurboScribe.ai. Atualize para Ilimitado para remover esta mensagem.)
+
+Oi, oi. Opa, e aí, Bruna? E aí, tudo bom? Tudo bem. Com você, como é que tá as coisas aí? Tranquilo.
+
+Eu vou... pegar os pontos. Não sei por que a Bruna não passa isso direto pra você. Ela passou pra mim, passou... Ela me falou que ia passar pra você, né? Então, sei lá.
+
+Eu acho que é porque ela fala e eu tento meio que falar pra você. Tanto mais técnico. Eu vou falar meio baixo porque aqui na sala tá tendo outra galera trabalhando aqui, conversando.
+
+Só você até alta. Tá. O aplicativo, você vai tipo, lançar ele pelo menos essa plataforma online aqui nesse Base 4.4? Não, não. 
+
+Ele não vai ser lançado aí, não. Essa Base 4.4 eu utilizei só pra mostrar pra vocês o mock-up de como seria o aplicativo. Eu projetei ele aqui e tal.
+
+Fiz. Coloquei as necessidades e tal. Porém, eu já tinha eu desenvolvi o mock-up já, né? Com código, entendeu? Aí nesse que eu vou mexer agora daqui pra frente e aí eu vou fazer os ajustes nas necessidades. 
+
+É como eu falei pra vocês. Não vai sair tão fielmente. Claro que eu vou ajeitar pra parecer tão fiel como sai aqui porque quando a gente faz o mock-up, quando a gente faz o figma ou esses negócios, eles colocam a gente, pode botar bonito, né? Aquele negócio aquela vislumbração e tal.
+
+E nunca vai ser tipo, 100% igual, entendeu? Mas a gente faz no molde por causa disso. Porque tipo, uma coisa que a gente que eles falaram era sobre tá tudo muito redondinho quadradinho quadrinho meio redondinho assim que ficou bem cara de inteligência artificial. Que padronizasse porque eles também tão montando um site aí e no site eles já tão indo direto, né? O cara já tá meio que não é lançando, né? Que a gente não lança mas já produzindo já direto como se fosse o final. 
+
+Ele não fez o modelo e mandou não. Ele já tá indo direto porque, né? Assim. Sim, sim.
+
+Aí tem uns tópicos que precisa remover. Eu vou abrir aqui do lado essa parte do status geral que tem bem no início Eu vou apresentar aqui. Você consegue apresentar ou você fez alguma anotação? Eu posso apresentar aqui que eu tô com... Vou apresentar aqui.
+
+Consegue enxergar aí de fora? Sim, sim. Tranquilo. Beleza.
+
+Aqui nessa parte ela pediu pra tirar essa parte que fala do status geral. Isso aqui? Deixa eu ver o que mais... Aqui ela pediu pra colocar em algum canto. Pode ser aqui, não sei.
+
+Ou aqui embaixo pra falar a cidade que eles vão estar. O aplicativo e o clima também. Essa parte aqui da navegação os mapas. 
+
+Tirar essa opção de mapa. Que aí, quando entrar em produtor que é pra ter o mapa, né? Deixa eu ver aqui mais. Os mapas que é pra ter aqui em produtores.
+
+É pra serem divididos entre mapas de fertilidade, correção, índice de vegetação. Então, tipo, fazer uma subdivisão aqui, sabe? Tipo, tem flano. Aí vai ter as informações, os mapas, só que aqui dentro de mapa, por exemplo, você dividir por categorias.
+
+Eu vou mandar as categorias de mapa que tem lá pra ajustar. Deixa eu ver outra coisa. O acesso dividido.
+
+Porque o que eles querem? Eles querem que a Bruna e o César, por exemplo, sejam só um. Tipo, eles têm um acesso só. Que acessa tudo.
+
+Todas as áreas. Só que assim, a empresa tem um representante do Goiás e outro em outro lugar. Então vai ser, tipo, três divisões.
+
+Só que o César e a Bruna têm acesso às três. E o do Goiás, por exemplo, ele só vai ter acesso à informação dele. O do outro lugar só vai ter acesso à informação dele.
+
+Mas o César e a Bruna têm acesso às três. E eles não têm acesso a os outros, sabe? E uma opção de acesso pro cliente. Tem todos esses aí.
+
+Tem tipo assim, o produtor, ao invés dele chegar e abrir direto assim, tem lá. Antes de entrar nisso aqui, por exemplo, nessa página principal. Tem cliente ou então colaborador, por exemplo.
+
+Aí, cliente. Vamos entrar em cliente. Ele entra com o cadastro dele lá.
+
+Pega todas as informações da propriedade dele que vai estar lá. Vai ter arquivos de panorama, que é um mapa X também, que é tipo o mapa da área. O mapa da área.
+
+E a opção de baixar aqueles mapas lá que eu falei. Entendeu? Sim, sim. Ok.
+
+Aí, uma opção é um caderno de campo. Eu acho que a Bruna já falou disso. Mas essa etapa é só mais para os colaboradores.
+
+Aí é tipo, é como se fosse uma ficha técnica para quem está lá organizando. O cliente pode ter acesso também. Que é tipo falando, você fez um relatório aqui, é como se fosse como se fosse isso, mas tipo cada cliente vai ter o seu sobre, sei lá, tem que aplicar tal dia, tem que fazer isso tal dia, aquilo tal dia.
+
+Eu acho que é mais isso. Aí aqui no fundo, no site deles, eles estão colocando uma imagem bem legal, bem interessante. Eu vou compartilhar ela contigo, para ver se você consegue pôr aqui também, que fica bem legal.
+
+É marronzinho, mas fica bem bonito para pôr no... Lembrando para você, é porque essa daí está na versão web. Você teria que colocar na mobile para ver como a gente encaixaria. Mas você vai mandar, você me mandou todos os requisitos, eu coloquei a versão web, porque vai ser uma projeção do que é o mobile, né? Eu vou tentar fazer assim, porque acho que vou conseguir colocar para ter acesso também pela internet, pelo computador, e aí... Poder também olhar, né? Poder fazer as consultas.
+
+Mas, em resumo, eu entendi. Então, você vai ter acesso. Tem o administrador geral, que é Bruno e César, tem o... dos colaboradores, não.
+
+Seremos... Alguma coisa assim? É, tipo isso. Pode chamar um colaborador. Seriam três colaboradores só? Ou como é que é essa situação? Até agora tem dois ou três, se não me engano. 
+
+Mas eu vou acertar direitinho. Aí eles vão ter acesso por região, né? É, tipo isso. Sei lá.
+
+Ele tem acesso do cliente. Deixa eu parar de compartilhar. Um acesso para o cliente e um acesso geral.
+
+É... Acabei de falar o nome. Colaborador. Aí, no colaborador, ele entra com o e-mail, sei lá, e lá já vai direcionado direto pra onde o cara meio que é fixado. 
+
+Ele trabalha no Goiás. Então, quando ele abrir isso, eu vou abrir as coisas do Goiás pra ele. Não, tranquilo.
+
+É como está correndo agora, você vai ter que entrar daqui a pouco. O que é que eu vou fazer? Eu vou sintetizar todas essas ideias que você me passou e vou colocar num documento. Eu já fiz, né? Eu já tenho um documento de fluxo de telas, onde está lá escrito tal.
+
+Aí eu vou passar mais ou menos como é que está a visão, o gerenciamento de acesso e essas modificações que você me pediu. Tá. Aí eu vou mandar pra tu.
+
+Mas, paralelamente, eu já vou começar... Começar não, né? É fazer essas obrigações que você já pediu de questão de tela, de usuário, de acesso, pra gente já... Como posso refatorar esse modelo que eu já fiz. Aí a gente tem que marcar já previamente outro dia de reunião, só pra confirmar os pontos. Entendeu? E a gente poder prosseguir.
+
+A gente já pode deixar marcado pra semana que vem alguma coisa. O que é que tu acha? Sim, sim. Exatamente isso mesmo, pra semana que vem mesmo. 
+
+Aí só definir um dia. É, só definir um dia. Eu posso, na terça-feira, até o dia que quiser.
+
+Preferencialmente, esses horários de... Só sexta que eu não posso uma hora da tarde que eu tenho reunião aqui no laboratório. Pode ser quarta ou quinta. Final do dia? Pode ser quarta ou quinta.
+
+No final do dia. Tipo, seis horas da tarde. Perfeito. 
+
+Pode ser. Então a gente pode ver. Vou botar daqui uma semana. 
+
+Vou dar um prazo de uma semana. Até quinta-feira, só pra poder ter uma coisa mais elaborada e tal. E se eles me mandarem logo as coisas alteradas já, aí eu já te passo logo de cara.
+
+Qualquer material que você receber, qualquer coisa, você já me manda logo. Inclusive, a gente vai ter que formalizar as coisas por e-mail, né? Pra ter registrado e tal. E não perder informações, entendeu? Então eu vou ver se eu crio o e-mail, se eu mando os meus e-mails.
+
+Porque eu queria um e-mail tipo Google, pra ter no Drive, entendeu? Sim. É melhor pra gente fazer essa gestão. E é isso, Bruna.
+
+Aí, qual que é outras dúvidas? Eu vou te perguntando. Eu vou te perguntar. Eu vou ter que ter uma reunião agora com o e-mail.
+
+Mas aí eu te mando as dúvidas lá. Eu vou reassistir aqui, né? Eu vou tentar te mandar os tópicos também mais organizados. Que eu não tive tempo de refazer.
+
+Tá só aqui, né? Sim, sim, tranquilo. Tô numa correria aqui, mas aí eu tento te mandar um quanto antes. Pra sair a linha aí também.
+
+Pronto, tranquilo. Tá bom. Tchau, tchau.
+
+Bom trabalho por aí. Você também.
+
+(Transcrito por TurboScribe.ai. Atualize para Ilimitado para remover esta mensagem.)

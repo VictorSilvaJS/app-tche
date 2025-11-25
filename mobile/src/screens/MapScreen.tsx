@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, ActivityIndicator, TextInput, Button } from 're
 import MapView, { Polygon, Marker } from 'react-native-maps';
 import * as Location from 'expo-location';
 import { api } from '../api/client';
+import { colors } from '../theme/colors';
 import { parseWktPolygon, computeBoundingBox } from '../domain/wkt';
 
 interface Field {
@@ -74,7 +75,7 @@ export default function MapScreen() {
       {error && <Text style={styles.error}>{error}</Text>}
       <View style={styles.row}>
         <TextInput placeholder="property_id" value={propertyId} onChangeText={setPropertyId} style={styles.input} />
-        <Button title="Recarregar" onPress={loadFields} />
+        <Button title="Recarregar" onPress={loadFields} color={colors.primary} />
       </View>
       {!mapRegion ? (
         <ActivityIndicator />
@@ -90,8 +91,8 @@ export default function MapScreen() {
               <Polygon
                 key={f.id}
                 coordinates={coords}
-                strokeColor="#15616d"
-                fillColor="rgba(21,97,109,0.3)"
+                strokeColor={colors.primary}
+                fillColor={colors.primary + '4D'}
                 strokeWidth={2}
               />
             );
@@ -103,10 +104,10 @@ export default function MapScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1 },
-  title: { fontSize: 18, fontWeight: 'bold', padding: 12 },
-  error: { color: 'red', paddingHorizontal: 12 },
+  container: { flex: 1, backgroundColor: colors.background },
+  title: { fontSize: 18, fontWeight: 'bold', padding: 12, color: colors.text },
+  error: { color: colors.danger, paddingHorizontal: 12 },
   row: { flexDirection: 'row', paddingHorizontal: 12, alignItems: 'center', gap: 8 },
-  input: { flex: 1, borderWidth: 1, borderColor: '#ccc', borderRadius: 6, padding: 8, marginVertical: 8 },
+  input: { flex: 1, borderWidth: 1, borderColor: colors.muted, borderRadius: 6, padding: 8, marginVertical: 8 },
   map: { flex: 1 },
 });

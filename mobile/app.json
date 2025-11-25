@@ -8,7 +8,6 @@
       "ios",
       "android"
     ],
-    "sdkVersion": "52.0.0",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -24,7 +23,8 @@
       }
     },
     "plugins": [
-      "expo-asset"
+      "expo-asset",
+      "expo-font"
     ]
   }
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, RefreshControl, ScrollView } from 'react-native';
+import { colors } from '../theme/colors';
 import { api } from '../api/client';
 
 interface Summary {
@@ -43,11 +44,11 @@ export default function DashboardScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16 },
-  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 12 },
-  error: { color: 'red', marginBottom: 12 },
+  container: { flex: 1, padding: 16, backgroundColor: colors.background },
+  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 12, color: colors.text },
+  error: { color: colors.danger, marginBottom: 12 },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 12 },
-  card: { backgroundColor: '#15616d', padding: 16, borderRadius: 10, width: '30%' },
-  cardLabel: { color: '#ffffff', fontSize: 12 },
-  cardValue: { color: '#ffffff', fontSize: 20, fontWeight: 'bold', marginTop: 4 }
+  card: { backgroundColor: colors.primary, padding: 16, borderRadius: 10, width: '30%' },
+  cardLabel: { color: colors.surface, fontSize: 12 },
+  cardValue: { color: colors.surface, fontSize: 20, fontWeight: 'bold', marginTop: 4 }
 });

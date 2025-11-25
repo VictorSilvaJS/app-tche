@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, FlatList, TextInput, Button } from 'react-native';
 import { api } from '../api/client';
+import { colors } from '../theme/colors';
 import { enqueue, flushQueue, OfflineOperation } from '../storage/offlineQueue';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -87,9 +88,9 @@ export default function SamplePointsScreen() {
       <TextInput placeholder="profundidade cm" value={depth} onChangeText={setDepth} style={styles.input} keyboardType="numeric" />
       <TextInput placeholder="latitude" value={lat} onChangeText={setLat} style={styles.input} keyboardType="numeric" />
       <TextInput placeholder="longitude" value={lon} onChangeText={setLon} style={styles.input} keyboardType="numeric" />
-      <Button title="Adicionar" onPress={createSample} />
+      <Button title="Adicionar" onPress={createSample} color={colors.primary} />
       <View style={{ height: 8 }} />
-      <Button title="Sincronizar Fila" onPress={syncQueue} />
+      <Button title="Sincronizar Fila" onPress={syncQueue} color={colors.muted} />
       <View style={{ height: 16 }} />
       {loading ? <Text>Carregando...</Text> : (
         <FlatList
@@ -110,11 +111,11 @@ export default function SamplePointsScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16 },
-  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 12 },
-  error: { color: 'red', marginBottom: 12 },
-  input: { borderWidth: 1, borderColor: '#ccc', borderRadius: 6, padding: 8, marginBottom: 8 },
-  item: { padding: 12, borderBottomWidth: 1, borderColor: '#eee' },
-  itemTitle: { fontWeight: 'bold' },
-  itemMeta: { fontSize: 12, color: '#555' }
+  container: { flex: 1, padding: 16, backgroundColor: colors.background },
+  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 12, color: colors.text },
+  error: { color: colors.danger, marginBottom: 12 },
+  input: { borderWidth: 1, borderColor: colors.muted, borderRadius: 6, padding: 8, marginBottom: 8 },
+  item: { padding: 12, borderBottomWidth: 1, borderColor: colors.muted },
+  itemTitle: { fontWeight: 'bold', color: colors.text },
+  itemMeta: { fontSize: 12, color: colors.muted }
 });
